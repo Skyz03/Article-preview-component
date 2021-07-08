@@ -45,6 +45,36 @@ body {
 .profile-section {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  max-width: 80%;
+  border-radius: 50%;
+}
+
+.img-content {
+  width: 20%;
+}
+
+.profile-name {
+  width: 60%;
+}
+
+.profile-name h3 {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.profile-name p {
+  opacity: 30%;
+  margin-top: 0;
+}
+.share-icon {
+  width: 5%;
+  height: 5%;
+  max-width: 100%;
 }
 
 .attribution {
