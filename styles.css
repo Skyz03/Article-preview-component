@@ -26,6 +26,27 @@ body {
   /* clip: rect(0, 175px, 113px, 0); */
 }
 
+/* Content Section Start */
+
+.content-section {
+  padding: 7% 10%;
+}
+
+.content-section h1 {
+  font-size: 1rem;
+}
+
+.content-section p {
+  opacity: 70%;
+  font-size: 0.8rem;
+}
+
+/* Profile-section Start */
+.profile-section {
+  display: flex;
+  flex-direction: row;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
