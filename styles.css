@@ -11,6 +11,11 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+.card {
+  margin: 25% 10%;
+  overflow: hidden;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
