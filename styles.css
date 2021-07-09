@@ -95,6 +95,27 @@ body {
     flex-direction: row;
     width: 60%;
     margin: 10% auto;
-    /* padding: 10%; */
+  }
+
+  .content-section {
+    padding: 0 5%;
+  }
+  .profile-section {
+    justify-content: left;
+  }
+
+  .img-content {
+    width: 10%;
+  }
+
+  .share-icon {
+    padding: 3%;
+    width: 3%;
+    margin-left: 20%;
+  }
+
+  .content-section h1 {
+    font-size: 1.5rem;
+    margin: 5% 0 2% 0;
   }
 } ;
