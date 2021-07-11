@@ -10,6 +10,10 @@
 
   <title> Article preview component</title>
 
+  <!-- FontAwesome CSS  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
   <!-- CSS StyleSheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -41,7 +45,16 @@
             <p> 28 Jun 2020</p>
           </div>
 
-          <img class="share-icon" src="images/icon-share.svg" alt="share-icon">
+
+
+
+          <div class="popup" onclick="myFunction()">
+            <img class="share-icon" src="images/icon-share.svg" alt="share-icon">
+            <span class="popuptext" id="myPopup">SHARE <i class="fab fa-facebook-f"></i></span>
+            <span class="popuptext" id="myPopup">SHARE</span>
+
+            <span class="fab fa-facebook-f popuptext" id="myPopup">123</span>
+          </div>
 
         </div>
 
@@ -57,7 +70,7 @@
 
   </main>
 
-
+  <script src="index.js"></script>
 </body>
 
 </html>
