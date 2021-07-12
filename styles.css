@@ -23,6 +23,7 @@ body {
 
 .hero-img {
   max-width: 100%;
+  border-radius: 15px 15px 0 0;
   /* This is for cliping image */
   /* position: absolute; */
   /* clip: rect(0, 175px, 113px, 0); */
@@ -165,6 +166,14 @@ body {
     flex-direction: row;
     width: 60%;
     margin: 10% auto;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    border-radius: 15px 0 0 15px;
+    /* This is for cliping image */
+    /* position: absolute; */
+    /* clip: rect(0, 175px, 113px, 0); */
   }
 
   .content-section {
